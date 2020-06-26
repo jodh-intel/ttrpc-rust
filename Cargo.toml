@@ -17,6 +17,7 @@ libc = { version = "0.2.59", features = [ "extra_traits" ] }
 nix = "0.16.1"
 log = "0.4"
 byteorder = "1.3.2"
+crossbeam-utils = "0.7.2"
 
 [build-dependencies]
 protobuf-codegen-pure = "2.14.0"
